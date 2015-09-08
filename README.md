@@ -1,16 +1,16 @@
 # yii2_install.sh
 
-Este archivo permite hacer la instalacion y creacion de un proyecto en yii2 sin tener que estar escribiendo de manera repatitiva los comandos correspondientes cada vez que se deba crear un proyecto.
+This is a bash file that allows the installation and creation of a project in Yii2 without the need to repeat commands when creating a project.
 
-La manera de ejectur el archivo es la siguiente:
+Examples:
 
 Linux 
   
-  sh yii2_install.sh nombredelproyecto
+  sh yii2_install.sh projectName
 
-Window con CygWin
+Window with CygWin
   
-  sh yii2_install.sh nombredelproyecto
+  sh yii2_install.sh projectName
 
 
 
