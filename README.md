@@ -1,16 +1,19 @@
 # yii2_install.sh
 
+Requeriments:
+- Composer installed
+
 This is a bash file that allows the installation and creation of a project in Yii2 without the need to repeat commands when creating a project.
 
 Examples:
 
 Linux 
   
-  sh yii2_install.sh projectName
+  - sh yii2_install.sh projectName
 
 Window with CygWin
   
-  sh yii2_install.sh projectName
+  - sh yii2_install.sh projectName
 
 
 
