@@ -1,7 +1,7 @@
 
 #!/bin/bash
 # Call this script to create a project in yii2 with composer command
-# sh scriptname  projectName
+# sh yii2_install.sh  projectname
 # Lic. Harold Villalobos 08/09/2015 10:42 am
 
 composer global require "fxp/composer-asset-plugin:~1.0.3"
