@@ -9,11 +9,11 @@ Examples:
 
 Linux 
   
-  - sh yii2_install.sh projectName
+  - sh yii2_install.sh (basic or advanced) projectName
 
 Window with CygWin
   
-  - sh yii2_install.sh projectName
+  - sh yii2_install.sh (basic or advanced) projectName 
 
 
 
