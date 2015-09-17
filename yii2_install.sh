@@ -1,9 +1,9 @@
-
 #!/bin/bash
 # Call this script to create a project in yii2 with composer command
-# sh yii2_install.sh  projectname
-# Lic. Harold Villalobos 08/09/2015 10:42 am
+# sh scriptname $1=(basic or advanced)  $2=projectName
+# Lic. Harold Villalobos 17/09/2015 10:49 am
 
 composer global require "fxp/composer-asset-plugin:~1.0.3"
-composer create-project --prefer-dist yiisoft/yii2-app-basic $1
+composer create-project --prefer-dist yiisoft/yii2-app-$1 $2
+
 
