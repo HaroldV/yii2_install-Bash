@@ -5,7 +5,11 @@
 
 composer global require "fxp/composer-asset-plugin:^1.2.0"
 composer create-project --prefer-dist --stability=dev yiisoft/yii2-app-$1 $2
-#composer create-project --prefer-dist yiisoft/yii2-app-$1 $2
-#composer require yiisoft/yii2
+
+# Preparing application 
+DIR="$( cd . "$(dirname "$0")" ; pwd -P )"
+php ${DIR}/$2/init
+
+
 
 
